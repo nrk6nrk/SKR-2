@@ -75,7 +75,7 @@ G10 P0 R0 S0                                   ; set initial tool 0 active and s
 
 ; Miscellaneous
 ;M575 P1 S1 B57600                              ; enable support for PanelDue
-M575 P1 S2 B57600
+M575 P1 S0 B57600
 
 M552 S1                                        ; enable network
 M150 X2
